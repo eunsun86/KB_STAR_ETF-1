@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+@font-face{ 
+    font-family:'KBFGDisplayM'; 
+    src:url('font/KBFGDisplayM.eot'); 
+    src:url('font/KBFGDisplayM.eot?#iefix') format(‘embedded-opentype’), 
+    url('font/KBFGDisplayM.woff') format(‘woff’), 
+    url('font/KBFGDisplayM.ttf') format('truetype'), 
+    url('font/KBFGDisplayM.svg') format('svg'); 
+}
+
+@font-face{ 
+    font-family:'KBFGTextM'; 
+    src:url('font/KBFGTextM.eot'); 
+    src:url('font/KBFGTextM.eot?#iefix') format(‘embedded-opentype’), 
+    url('font/KBFGTextM.woff') format(‘woff’), 
+    url('font/KBFGTextM.ttf') format('truetype'), 
+    url('font/KBFGTextM.svg') format('svg'); 
+}
+
+/* reset */
+html,body{overflow-x:hidden}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button {margin:0;padding:0}
+fieldset,img {border:0 none;vertical-align:middle}
+dl,ul,ol,menu,li {list-style:none}
+blockquote, q {quotes:none}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+input,select,textarea,button {font-size:100%;vertical-align:middle}
+button {border:0 none;background-color:transparent;cursor:pointer;}
+table {width:100%;border-collapse:collapse;border-spacing:0}
+caption {width:0;height:0;text-indent:-9999px;}
+body {-webkit-text-size-adjust:none} /* 뷰표트 변환시 폰트크기 자동확대 방지 */
+input[type='text'],input[type='password'],input[type='submit'],input[type='search'] {-webkit-appearance:none; border-radius:0}
+input:checked[type='checkbox'] {-webkit-appearance: none;border: 0;}
+button,input[type='button'],input[type='submit'],input[type='reset'],input[type='file'] {-webkit-appearance:button; border-radius:0}
+input[type='search']::-webkit-search-cancel-button {-webkit-appearance:none}
+body {background:#fff;letter-spacing: -.2px;}
+body,th,td,input,select,textarea,button {font-size:13px;line-height:1.5;font-family:'KBFGTextM', sans-serif;color:#1D1D1D;}
+a {color:#333;text-decoration:none;}
+a:active, a:hover {text-decoration:none}
+address,caption,cite,code,dfn,em,i,var {font-style:normal;font-weight:normal;}
+select{border: 0;}
+.blind{position: absolute; width: 1px; height: 1px; clip: rect(0 0 0 0); overflow: hidden}
+
+.sknavi, .sknavi .skip{position: absolute;}
+.loading, .sknavi{width: 100%}
+.sknavi {z-index: 1000;top: -500px;}
+.sknavi:active, .sknavi:focus {top: 0;display: block;width: 100%;text-align: center;font-weight: 600;background-color: #f7f7f7;text-decoration: none;height: 40px;line-height: 40px;color: #000;font-size: 15px;border-bottom: 1px solid #ddd;z-index: 10000;}
+.sknavi .skip {top: -9999px;}
+
+/* 공통 SP */
+.sp_common, .sp_common_b:before, .sp_common_a:after{-webkit-appearance:none;appearance:none;-webkit-background-color:transparent;background-color:transparent;background-image:url(../image/common/sp_common.png);background-size: auto; background-repeat: no-repeat;vertical-align: middle;}
+
+
